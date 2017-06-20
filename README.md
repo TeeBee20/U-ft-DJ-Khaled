@@ -56,7 +56,7 @@ git remote add origin <url to your repo>
 ## Credits
 The idea for React tiny apps comes from the following articles by Andrew Farmer:
 
-http://andrewhfarmer.com/tiny-unique-app/
-http://andrewhfarmer.com/tiny-app-ideas/
-http://andrewhfarmer.com/sample-apps-create-react-app/
+- http://andrewhfarmer.com/tiny-unique-app/
+- http://andrewhfarmer.com/tiny-app-ideas/
+- http://andrewhfarmer.com/sample-apps-create-react-app/
 
