@@ -22,6 +22,8 @@ Spend some time playing with the actual calculator you are trying to copy and tr
 
 ## More ideas for apps
 
+Constrain yourself to just 1 or 2 features. Only think about extending your app after implementing the core idea. Think of a common problem that you face daily or an app on your phone that you don't quite like how it works. What could you do better?
+
 1. Dictionary app: use a JSON file as your source of data (like the one from [here](https://github.com/adambom/dictionary))
 
 2. Grocery list app: like a To Do list but with support for grouping items by recipe and different quantities (with different units!). You could add features like reusing lists. This is a good app to learn about `localStorage` to stor application data without a server.
@@ -49,4 +51,4 @@ git remote add origin <url to your repo>
 ```
 3. Install dependencies
 4. Run the `start` NPM script
-5. Build your app!
+5. Build your app by following the steps on [CHECKLIST.md](https://github.com/northcoders/w08-tiny-react-apps/blob/master/CHECKLIST.md)
