@@ -8,7 +8,7 @@ Another great benefit of building several tiny apps is that you get to show futu
 
 ## Day 1
 
-Start by building an **Emoji Search app** that renders a list of emojis and allows you to search and filter by name and keywords.
+Start by building an **Emoji Search app** that renders a list of emojis and allows you to search and filter by name and keywords. Use the [provided JSON file](https://github.com/northcoders/w08-tiny-react-apps/blob/master/emojiList.json) as your source of data.
 
 **Hint:** The key to the filter functionality lies on the `onChange` event handler for the input element.
 
@@ -52,3 +52,11 @@ git remote add origin <url to your repo>
 3. Install dependencies
 4. Run the `start` NPM script
 5. Build your app by following the steps on [CHECKLIST.md](https://github.com/northcoders/w08-tiny-react-apps/blob/master/CHECKLIST.md)
+
+## Credits
+The idea for React tiny apps comes from the following articles by Andrew Farmer:
+
+http://andrewhfarmer.com/tiny-unique-app/
+http://andrewhfarmer.com/tiny-app-ideas/
+http://andrewhfarmer.com/sample-apps-create-react-app/
+
