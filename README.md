@@ -8,9 +8,11 @@ Another great benefit of building several tiny apps is that you get to show futu
 
 ## Day 1
 
-Start by building an **Emoji Search app** that renders a list of emojis and allows you to search and filter by name and keywords. Use the [provided JSON file](https://github.com/northcoders/w08-tiny-react-apps/blob/master/emojiList.json) as your source of data.
+1. Start by building an **Emoji Search app** that renders a list of emojis and allows you to search and filter by name and keywords. Use the [provided JSON file](https://github.com/northcoders/w08-tiny-react-apps/blob/master/emojiList.json) as your source of data.
 
 **Hint:** The key to the filter functionality lies on the `onChange` event handler for the input element.
+
+2. Build a **Random Quote Generator** app that displays a quote (you get to choose the topic!) and on the user's input changes to another randomly selected quote. You can extend this app by adding filters by topic or author of quotes. Spend some time styling your application to match your theme.
 
 ## Day 2
 
@@ -42,7 +44,7 @@ Constrain yourself to just 1 or 2 features. Only think about extending your app 
 
 ## Steps
 
-1. Clone the [starter repo](https://github.com/northcoders/w08-react-starter)
+1. Clone the [starter repo](https://github.com/northcoders/FE-react-starter)
 2. Remove the `origin` remote and add a new `origin` that points to a repository on your GitHub profile.
 
 ```
