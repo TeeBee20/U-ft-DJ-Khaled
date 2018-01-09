@@ -42,18 +42,23 @@ Constrain yourself to just 1 or 2 features. Only think about extending your app 
 
 8. Hangman game
 
-## Steps
+9. [Universal Paperclips](http://www.decisionproblem.com/paperclips/index2.html) clone <--- Mauro's favourite
 
-1. Clone the [starter repo](https://github.com/northcoders/FE-react-starter)
-2. Remove the `origin` remote and add a new `origin` that points to a repository on your GitHub profile.
+## Instructions
 
-```
-git remote remove origin
-git remote add origin <url to your repo>
-```
-3. Install dependencies
-4. Run the `start` NPM script
-5. Build your app by following the steps on [CHECKLIST.md](https://github.com/northcoders/w08-tiny-react-apps/blob/master/CHECKLIST.md)
+1. Copy-paste the provided `template` directory to start a new app fresh.
+2. Spend some time designing your app visually, draw it on paper to inform what HTML elements you'll need and how they'll be laid out.
+3. Roughly determine what parts of your design should be components (this can change later as you build them). Think about what HTML elements have meaning together and can be grouped.
+4. Write static/hardcoded components as the skeleton of your app.
+5. Identify the state of your whole application: the minimal amount of information you would need to "turn off" your application, "turn it on" again a have it in the same state. Like saving and loading in a videogame. Represent it as one JS object and decide where it should be stored (your top level component is a good first guess on a tiny app)
+6. Start making your app dynamic by passing data from state as props to other components and rendering dynamic lists instead of hardcoded copies of components.
+7. Add user input functionality to your app by implementing event handlers on buttons and form elements. Remember: data can only flow from parents to children. If a child component needs to send data to its parent, then its parent needs to give it a function as a prop to do this.
+8. Style your application (or leave it as it is, brutalism is in!)
+
+## Notes
+- Committing changes after finishing a meaningful unit of work (a component, a feature of functionality, a successful refactor) never hurt anyone
+- If your main JS file is getting too big you can always create more files and link them on your `index.html` the same way as the first one. Keep in mind that files are loaded in the order they are written, so if you need a variable from file A in file B, file A should come first.
+- The browser environment is different to Node.js. Currently there's no native support for importing/exporting from files. Variables and functions that you define in different files and load into one HTML file are all available globally. We'll address the disadvantages of this way of organising code and solutions to it.
 
 ## Credits
 The idea for React tiny apps comes from the following articles by Andrew Farmer:
