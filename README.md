@@ -8,7 +8,7 @@ Another great benefit of building several tiny apps is that you get to show futu
 
 ## Ideas
 
-If you're not feeling too confident, we recomment building the an **Emoji Search app** that renders a list of emojis and allows you to search and filter by name and keywords. Use the [provided JSON file](https://github.com/northcoders/w08-tiny-react-apps/blob/master/emojiList.json) as your source of data. This isn't too different to the quote generator, but you will need to think about how to control what you display without altering your original data.
+If you're not feeling too confident, we recomment building the an **Emoji Search app** that renders a list of emojis and allows you to search and filter by name and keywords. Use the [provided JSON file](https://github.com/northcoders/FE-tiny-react-apps/blob/master/src/data/emojiList.json) as your source of data. This isn't too different to the quote generator, but you will need to think about how to control what you display without altering your original data.
 
 **Hint:** The key to the filter functionality lies on the `onChange` event handler for the input element.
 
