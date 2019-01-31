@@ -30,7 +30,9 @@ Constrain yourself to just 1 or 2 features. Only think about extending your app 
 
 We've attached a checklist that applies to all React project development. There will be a few things you don't know about yet so you can ignore those steps; for now, the most important things to think about are planning out your app, then constructing a static version with no method or functionality, then making it do stuff!
 
-REMEMBER: Commit changes after finishing a meaningful unit of work (a component, a feature of functionality, a successful refactor) never hurt anyone
+REMEMBER: Commit changes after finishing a meaningful unit of work (a component, a feature of functionality, a successful refactor) never hurt anyone.
+
+If you move on to a second app or beyond, use [create-react-app](https://github.com/facebook/create-react-app) to bootleg your project. We recommend you do this with `npx create-react-app <project-name>` - this means you don't need to globally install create-react-app and risk it becoming outdated. [More on npx](https://www.npmjs.com/package/npx).
 
 ## Credits
 The idea for React tiny apps comes from the following articles by Andrew Farmer:
