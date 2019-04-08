@@ -35,9 +35,7 @@ REMEMBER: Commit changes after finishing a meaningful unit of work (a component,
 If you move on to a second app or beyond, use [create-react-app](https://github.com/facebook/create-react-app) to bootleg your project. We recommend you do this with `npx create-react-app <project-name>` - this means you don't need to globally install create-react-app and risk it becoming outdated. [More on npx](https://www.npmjs.com/package/npx).
 
 ## Credits
-The idea for React tiny apps comes from the following articles by Andrew Farmer:
+The idea for React tiny apps comes from the following article by Andrew Farmer:
 
-- http://andrewhfarmer.com/tiny-unique-app/
-- http://andrewhfarmer.com/tiny-app-ideas/
-- http://andrewhfarmer.com/sample-apps-create-react-app/
+- https://www.javascriptstuff.com/tiny-unique-app/
 
