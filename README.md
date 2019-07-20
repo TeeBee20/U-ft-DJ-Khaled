@@ -16,15 +16,17 @@ If you're not feeling too confident, we recomment building the an **Emoji Search
 
 Constrain yourself to just 1 or 2 features. Only think about extending your app after implementing the core idea. Think of a common problem that you face daily or an app on your phone that you don't quite like how it works. What could you do better?
 
-1. Noughts and Crosses. Track scores - could you make this so you could programmatically make different size boards?
+1. To-Do List.  Show tasks needing to be done, be able to add a new one, delete tasks.  Maybe rank by due-date?
 
-2. Recipe idea generator: plug in some ingredients and get a random algorithmically created method. 
+2. Noughts and Crosses. Track scores - could you make this so you could programmatically make different size boards?
 
-3. Hangman. Choose from different categories, keep track of scores... how will you represent it graphically? (You could look into svg, html5 canvas, or just find some images online)
+3. Recipe idea generator: plug in some ingredients and get a random algorithmically created method. 
 
-4. A resource management game - have a look at [Universal Paperclips](http://www.decisionproblem.com/paperclips/index2.html) for inspiration (think how you will need to use setTimeout / setInterval).
+4. Hangman. Choose from different categories, keep track of scores... how will you represent it graphically? (You could look into svg, html5 canvas, or just find some images online)
 
-5. Build a **Calculator app** that replicates the functionality and looks of your operating system's calculator. You could head into scientific territory if you feel brave...
+5. A resource management game - have a look at [Universal Paperclips](http://www.decisionproblem.com/paperclips/index2.html) for inspiration (think how you will need to use setTimeout / setInterval).
+
+6. Build a **Calculator app** that replicates the functionality and looks of your operating system's calculator. You could head into scientific territory if you feel brave...
 
 ## Instructions
 
