@@ -8,7 +8,7 @@ Another great benefit of building several tiny apps is that you get to show futu
 
 ## Ideas
 
-If you're not feeling too confident, we recommend building a to-do list and graudally building up to more complicated functionality (similar to the lecture example).
+If you're not feeling too confident, we recommend building a to-do list and gradually building up to more complicated functionality (similar to the lecture example).
 
 ### Other ideas
 
