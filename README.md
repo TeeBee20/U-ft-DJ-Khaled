@@ -14,7 +14,7 @@ If you're not feeling too confident, we recommend building a to-do list and grad
 
 Constrain yourself to just 1 or 2 features. Only think about extending your app after implementing the core idea. Think of a common problem that you face daily or an app on your phone that you don't quite like how it works. What could you do better?
 
-1. To-Do List. Show tasks needing to be done, be able to add a new one, delete tasks. Maybe rank by due-date?
+1. To-Do List. Show tasks needing to be done, be able to add a new one, delete tasks.
 
 2. Noughts and Crosses. Track scores - could you make this so you could programmatically make different size boards?
 
@@ -28,11 +28,11 @@ Constrain yourself to just 1 or 2 features. Only think about extending your app 
 
 ## Instructions
 
-We've attached a checklist that applies to all React project development. There will be a few things you don't know about yet so you can ignore those steps; for now, the most important things to think about are planning out your app, then constructing a static version with no method or functionality, then making it do stuff!
+We've attached a checklist that applies to all React project development. There will be a few things you don't know about yet so you can ignore those steps; for now, the most important things to think about are planning out your app, then constructing a static version with no functionality, then making it do stuff!
 
 _REMEMBER:_ Commit changes after finishing a meaningful unit of work (a component, a feature of functionality, a successful refactor) never hurt anyone.
 
-Use [create-react-app](https://github.com/facebook/create-react-app) to bootleg your project. We recommend you do this with `npx create-react-app <project-name>` - this means you don't need to globally install create-react-app and risk it becoming outdated. [More on npx](https://www.npmjs.com/package/npx).
+Use [create-react-app](https://github.com/facebook/create-react-app) to bootleg your project. We recommend you do this with `npx create-react-app --use-npm <project-name>` - this means you don't need to globally install create-react-app and risk it becoming outdated. [More on npx](https://www.npmjs.com/package/npx).
 
 ## Credits
 
