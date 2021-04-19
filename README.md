@@ -39,3 +39,8 @@ Use [create-react-app](https://github.com/facebook/create-react-app) to bootleg 
 The idea for React tiny apps comes from the following article by Andrew Farmer:
 
 - https://www.javascriptstuff.com/tiny-unique-app/
+
+Some examples of the tiny-apps that they built can be found here:
+
+- [Emoji Search](https://ahfarmer.github.io/emoji-search/)
+- [Calculator](https://ahfarmer.github.io/calculator/)
