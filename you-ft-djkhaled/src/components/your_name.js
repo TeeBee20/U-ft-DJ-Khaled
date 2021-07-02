@@ -3,7 +3,7 @@ const YourName = (props) => {
 
   return (
     <div>
-      <h3>Sup playa! Enter a fire DJ name 🎧</h3>
+      <h3 className="enterName">Sup playa?! Enter a fire DJ name 🎧</h3>
       <form
         onSubmit={(event) => {
           event.preventDefault();

@@ -25,10 +25,10 @@ const Song = (props) => {
   };
 
   return (
-    <div>
+    <div className="track">
       <h3>Your New Track</h3>
-      <p>
-        {song} - {djName} ft. DJ KHALED
+      <p className="ftdjkhaled">
+        <span>{song}</span> - {djName} ft. DJ KHALED
       </p>
       <Album
         trackList={trackList}

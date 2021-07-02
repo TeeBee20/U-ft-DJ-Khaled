@@ -35,14 +35,15 @@ const Lyric = (props) => {
     return Math.floor(Math.random() * 5);
   };
   return (
-    <div>
-      <p>ANOTHA ONE</p>
-      <p>{lyrics[vibe][randomIndex()]}</p>
-      <p>{lyrics[vibe][randomIndex()]}</p>
-      <p>{lyrics[vibe][randomIndex()]}</p>
-
-      <p>WE DA BEST MUSIK</p>
-      <p>WE DA BEST REACT APP</p>
+    <div className="lyrics">
+      <p className="ANOTHAONE">ANOTHA ONE</p>
+      <div className="lyrics_background">
+        <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+        <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+        <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+      </div>
+      <p className="ANOTHAONE">WE DA BEST MUSIK</p>
+      <p className="ANOTHAONE">WE DA BEST REACT APP ©</p>
     </div>
   );
 };

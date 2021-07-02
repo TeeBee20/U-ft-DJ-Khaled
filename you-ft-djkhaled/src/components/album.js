@@ -2,7 +2,7 @@ const Album = (props) => {
   const { trackList, updateAlbum, deleteTrack } = props;
   return (
     <div>
-      <p>Lit or Trash? Add to da record or nah?</p>
+      <p className="addOrRemove">Lit or Trash? Add to da record or nah?</p>
       <button
         onClick={() => {
           updateAlbum();

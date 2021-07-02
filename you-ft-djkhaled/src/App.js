@@ -13,9 +13,10 @@ function App() {
 
   return (
     <div className="App">
-      <Header />
+      <Header className="Header" />
       <YourName djName={djName} setdjName={setdjName} />
       <Vibe
+        className="Vibe"
         djName={djName}
         vibe={vibe}
         setVibe={setVibe}

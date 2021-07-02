@@ -52,7 +52,7 @@ const Vibe = (props) => {
   };
 
   return (
-    <div>
+    <div className="vibe">
       <h3>Choose yo vibe 🌊</h3>
       <button
         onClick={() => {
