@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const Vibe = (props) => {
   const [song, setSong] = useState("");
-  const { djName } = props;
+  const { djName, vibe, setVibe, setShowLyrics, showName, setShowName } = props;
   const tracks = {
     HYPE: [
       "All I do is win",
@@ -39,12 +39,27 @@ const Vibe = (props) => {
     setSong(tracks[vibe][Math.floor(Math.random() * 5)]);
   };
 
+  const chooseVibe = (choice) => {
+    setVibe(choice);
+  };
+
+  const showLyricsFunc = () => {
+    setShowLyrics(true);
+  };
+
+  const showNameFunc = () => {
+    setShowName(true);
+  };
+
   return (
     <div>
       <h3>Choose yo vibe 🌊</h3>
       <button
         onClick={() => {
           newSong(tracks, "HYPE");
+          chooseVibe("HYPE");
+          showLyricsFunc();
+          showNameFunc();
         }}
       >
         HYPE 🙌 🍾 🕺
@@ -52,6 +67,9 @@ const Vibe = (props) => {
       <button
         onClick={() => {
           newSong(tracks, "2AM");
+          chooseVibe("2AM");
+          showLyricsFunc();
+          showNameFunc();
         }}
       >
         2 AM u up? 🤔 😈 😏
@@ -59,6 +77,9 @@ const Vibe = (props) => {
       <button
         onClick={() => {
           newSong(tracks, "GRIND");
+          chooseVibe("GRIND");
+          showLyricsFunc();
+          showNameFunc();
         }}
       >
         ON DA GRIND 💯 🍞 💸
@@ -66,11 +87,13 @@ const Vibe = (props) => {
       <button
         onClick={() => {
           newSong(tracks, "TRIPPIN");
+          chooseVibe("TRIPPIN");
+          showLyricsFunc();
         }}
       >
         U trippin? 👀 👊💥
       </button>
-      <Song djName={djName} song={song} />
+      {showName ? <Song djName={djName} song={song} /> : null}
     </div>
   );
 };

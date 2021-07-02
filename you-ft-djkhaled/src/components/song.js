@@ -7,9 +7,20 @@ const Song = (props) => {
 
   const updateAlbum = () => {
     setTrackList((currTrackList) => {
-      console.log(trackList);
+      if (currTrackList.includes(song)) {
+        alert("You just played yo self - and this song too");
+        return currTrackList;
+      }
       const newList = [...currTrackList, song];
       return newList;
+    });
+  };
+
+  const deleteTrack = () => {
+    setTrackList((currTrackList) => {
+      const copy = [...currTrackList];
+      copy.pop();
+      return copy;
     });
   };
 
@@ -19,16 +30,11 @@ const Song = (props) => {
       <p>
         {song} - {djName} ft. DJ KHALED
       </p>
-      <p>Lit or Trash? Add to da record or nah?</p>
-      <button
-        onClick={() => {
-          updateAlbum();
-        }}
-      >
-        😍
-      </button>
-      <button>🗑️</button>
-      <Album trackList={trackList} />
+      <Album
+        trackList={trackList}
+        updateAlbum={updateAlbum}
+        deleteTrack={deleteTrack}
+      />
     </div>
   );
 };

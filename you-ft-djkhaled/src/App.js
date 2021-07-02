@@ -7,13 +7,23 @@ import { useState } from "react";
 
 function App() {
   const [djName, setdjName] = useState("");
+  const [vibe, setVibe] = useState("HYPE");
+  const [showLyrics, setShowLyrics] = useState(false);
+  const [showName, setShowName] = useState(false);
 
   return (
     <div className="App">
       <Header />
       <YourName djName={djName} setdjName={setdjName} />
-      <Vibe djName={djName} />
-      <Lyric />
+      <Vibe
+        djName={djName}
+        vibe={vibe}
+        setVibe={setVibe}
+        setShowLyrics={setShowLyrics}
+        showName={showName}
+        setShowName={setShowName}
+      />
+      {showLyrics ? <Lyric vibe={vibe} /> : null}
     </div>
   );
 }

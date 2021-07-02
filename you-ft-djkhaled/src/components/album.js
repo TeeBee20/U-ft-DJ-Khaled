@@ -1,8 +1,22 @@
 const Album = (props) => {
-  console.log(props);
-  const { trackList } = props;
+  const { trackList, updateAlbum, deleteTrack } = props;
   return (
     <div>
+      <p>Lit or Trash? Add to da record or nah?</p>
+      <button
+        onClick={() => {
+          updateAlbum();
+        }}
+      >
+        😍
+      </button>
+      <button
+        onClick={() => {
+          deleteTrack();
+        }}
+      >
+        🗑️
+      </button>
       <ul>
         {trackList.map((track, index) => {
           return <li key={index}>{track}</li>;
