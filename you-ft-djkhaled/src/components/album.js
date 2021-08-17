@@ -19,7 +19,7 @@ const Album = (props) => {
       </button>
       <ul>
         {trackList.map((track, index) => {
-          return <li key={index}>{track}</li>;
+          return <li key={index}>💿{track}</li>;
         })}
       </ul>
     </div>
