@@ -13,16 +13,24 @@
 ## Setup
 
 - [x] Create your app directory (e.g. with create-react-app)
-- [ ] Run your app
-- [ ] Ensure you have React DevTools running (in browser)
-- [ ] Create a static render of blank components as per your hierarchy
-- [ ] Check everything is hooked up and the component tree is rendered
+- [x] Run your app
+- [x] Ensure you have React DevTools running (in browser)
+- [x] Create a static render of blank components as per your hierarchy
+- [x] Check everything is hooked up and the component tree is rendered
 
 ## Build components
 
-- [ ] Work on each component in turn. Generally starting high up the tree and working your way down works well.
-- [ ] Add the required state to your components and render that state correctly. (You can change the initial state manually to check it renders the way you want for now)
-- [ ] Once the state is rendered correctly add any functionality that will set that state.
-- [ ] Repeat this for all the functionality of a component before moving on to the next.
+- [x] Work on each component in turn. Generally starting high up the tree and working your way down works well.
+- [x] Add the required state to your components and render that state correctly. (You can change the initial state manually to check it renders the way you want for now)
+- [x] Once the state is rendered correctly add any functionality that will set that state.
+- [x] Repeat this for all the functionality of a component before moving on to the next.
 - [ ] Once all the functionality of a component is complete you can style the component at this point or leave all your styling until the end.
 - [ ] Repeat this process until you have a complete app.
+
+# to do
+
+- [x] lyrics section
+- [x] make sure track List doesn't duplicate
+- [x] delete feature for track list
+- [ ] styling
+- [x] if possible a reveal button
