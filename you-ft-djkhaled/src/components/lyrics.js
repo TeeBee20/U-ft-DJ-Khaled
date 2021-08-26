@@ -1,3 +1,5 @@
+import githubicon from "../githubicon.png";
+
 const Lyric = (props) => {
   const { vibe } = props;
   const lyrics = {
@@ -36,14 +38,50 @@ const Lyric = (props) => {
   };
   return (
     <div className="lyrics">
-      <p className="ANOTHAONE">ANOTHA ONE</p>
       <div className="lyrics_background">
-        <p className="lines">{lyrics[vibe][randomIndex()]}</p>
-        <p className="lines">{lyrics[vibe][randomIndex()]}</p>
-        <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+        <div className="pic-catchphrase-gaze">
+          <img
+            src="https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/DJ%2BKhaled/DJ%2520Khaled_16_9_1604401648.jpg?itok=_NV7u8PK"
+            id="khaled-gaze"
+            alt="dj-khaled"
+            width="33%"
+          ></img>
+          <p className="ANOTHAONE">ANOTHA ONE</p>
+        </div>
+        <div className="lyric-stanza">
+          <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+          <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+          <p className="lines">{lyrics[vibe][randomIndex()]}</p>
+        </div>
+        <div className="pic-catchphrase-jetski">
+          <p className="ANOTHAONE">WE DA BEST MUSIK</p>
+          <img
+            src="https://cdn1.matadornetwork.com/blogs/1/2018/10/DJ-Khaled-on-a-jet-ski-in-Miami-1200x852.jpg"
+            alt="dj khaled on a jet ski"
+            id="khaled-jetski"
+            width="33%"
+          ></img>
+        </div>
       </div>
-      <p className="ANOTHAONE">WE DA BEST MUSIK</p>
-      <p className="ANOTHAONE">WE DA BEST REACT APP ©</p>
+      <div className="dev-info">
+        <img
+          src={githubicon}
+          alt="github icon"
+          width="50px"
+          height="50px"
+        ></img>
+        <p className="ANOTHAONE">khizarIqbal93</p>
+        <img
+          src={githubicon}
+          alt="github icon"
+          width="50px"
+          height="50px"
+        ></img>
+        <p className="ANOTHAONE">TeeBee20</p>
+        <p className="ANOTHAONE" id="wedabest">
+          WE DA BEST REACT APP ©
+        </p>
+      </div>
     </div>
   );
 };
