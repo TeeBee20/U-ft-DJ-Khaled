@@ -27,7 +27,11 @@ This app was created during a two-day paired programming sprint with [Khizar Iqb
 
 ### Run app in development mode
 
-    npm start to run on localhost:3000
+    npm start
+
+Project should open in browswer on:
+
+    localhost:3000
 
 ## Requirements
 
