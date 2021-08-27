@@ -15,15 +15,17 @@ Have you ever wanted to collab on a fresh track with DJ Khaled? Do you want to b
 
     git clone https://github.com/TeeBee20/U-ft-DJ-Khaled.git
 
-    `cd` into repo
+cd into repo
 
 ### Install dependencies
 
-    `npm install`
+    npm install
 
 ### Run app in development mode
 
-    `npm start` to run on `localhost:3000`
+    npm start
+
+to run on localhost:3000
 
 ## Requirements
 
