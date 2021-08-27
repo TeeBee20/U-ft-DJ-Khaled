@@ -29,7 +29,7 @@ This app was created during a two-day paired programming sprint with [Khizar Iqb
 
     npm start
 
-Project should open in browswer on:
+Project should open in browser on:
 
     localhost:3000
 
