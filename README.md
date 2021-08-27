@@ -6,7 +6,7 @@ Have you ever wanted to collab on a fresh track with DJ Khaled? Do you want to b
 
 ![DJ Khaled](https://vegasmagazine.com/get/files/image/galleries/DJ-Khaled-1.jpg)
 
-    "I'm a hitmaker. Let's make ANOTHA ONE. Click below to head to the hosted version" - DJ Khaled
+> I'm a hitmaker. Let's make ANOTHA ONE. Click below to head to the hosted version - DJ Khaled
 
 [U ft. DJ Khaled](https://u-ft-djkhaled.netlify.app/)
 
