@@ -4,11 +4,13 @@ Have you ever wanted to collab on a fresh track with DJ Khaled? Do you want to b
 
 **U ft. DJ** Khaled allows users enter a DJ name and choose their desired musical vibe. This will generate a random track (ft. DJ Khaled) from DJ Khaled's discography. Lyrics for the track will also be randomly generated and displayed below. Users can edit their tracklist by removing or adding tracks.
 
-This app was created during a two-day paired programming sprint with @khizarIqbal93 using React, as part of the Northcoders bootcamp.
+This app was created during a two-day paired programming sprint with @khizarIqbal93 using **React**, as part of the [Northcoders](https://northcoders.com/) bootcamp.
 
 ![DJ Khaled](https://vegasmagazine.com/get/files/image/galleries/DJ-Khaled-1.jpg)
 
-> I'm a hitmaker. Let's make ANOTHA ONE. Click below to head to the hosted version - _DJ Khaled_
+> I'm a hitmaker. Let's make ANOTHA ONE.
+> Click below to head to the hosted version
+> _DJ Khaled_
 
 [U ft. DJ Khaled](https://u-ft-djkhaled.netlify.app/)
 
@@ -26,9 +28,7 @@ This app was created during a two-day paired programming sprint with @khizarIqba
 
 ### Run app in development mode
 
-    npm start
-
-    to run on localhost:3000
+    npm start to run on localhost:3000
 
 ## Requirements
 
