@@ -4,7 +4,11 @@ Have you ever wanted to collab on a fresh track with DJ Khaled? Do you want to b
 
 **U ft. DJ** Khaled allows users enter a DJ name and choose their desired musical vibe. This will generate a random track (ft. DJ Khaled) from DJ Khaled's discography. Lyrics for the track will also be randomly generated and displayed below. Users can edit their tracklist by removing or adding tracks.
 
+<<<<<<< HEAD
 This app was created during a two-day paired programming sprint with @khizarIqbal93 using **React**, as part of the [Northcoders](https://northcoders.com/) bootcamp.
+=======
+This app was created during a two-day paired programming sprint with @KhizarIqbal93 using React, as part of the Northcoders bootcamp.
+>>>>>>> 3762cb13030d2a900638369363517e225e6a8ee4
 
 ![DJ Khaled](https://vegasmagazine.com/get/files/image/galleries/DJ-Khaled-1.jpg)
 
