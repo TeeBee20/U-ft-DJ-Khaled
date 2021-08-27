@@ -9,8 +9,7 @@ This app was created during a two-day paired programming sprint with @khizarIqba
 ![DJ Khaled](https://vegasmagazine.com/get/files/image/galleries/DJ-Khaled-1.jpg)
 
 > I'm a hitmaker. Let's make ANOTHA ONE.
-> Click below to head to the hosted version
-> _DJ Khaled_
+> Click below to head to the hosted version -_DJ Khaled_
 
 [U ft. DJ Khaled](https://u-ft-djkhaled.netlify.app/)
 
